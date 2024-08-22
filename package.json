@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "zapxje blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapxje/nodejs_zapxje_blog.git"
+  },
+  "keywords": [
+    "zapxje",
+    "blog"
+  ],
+  "author": "zapxje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zapxje/nodejs_zapxje_blog/issues"
+  },
+  "homepage": "https://github.com/zapxje/nodejs_zapxje_blog#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
